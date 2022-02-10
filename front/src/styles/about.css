@@ -1,0 +1,146 @@
+#circle {
+  width: 68px;
+  height: 68px;
+  border-radius: 50%;
+  border: solid #75fd5d 5px;
+  position: absolute;
+  right: 9rem;
+  top: 9px;
+}
+
+#transparent {
+  width: 20px;
+  height: 30px;
+  background-color: white;
+  position: absolute;
+  top: 28px;
+  right: 12.5rem;
+}
+
+.about_title {
+  font-family: 'made_dillanregular';
+  font-size: 2rem;
+}
+
+.about_container {
+  max-width: 1200px;
+  font-family: 'kg_red_handsregular';
+  padding: 30px 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+.about_container h4 {
+  font-family: 'made_dillanregular';
+  font-size: 2rem;
+}
+
+.about_container p {
+  font-size: small;
+  text-align: justify;
+}
+.aboutcircle {
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  position: relative;
+}
+
+.aboutcircle.yellow {
+  background-color: #ffff00;
+  padding-right: 20px;
+}
+.aboutcircle.blue {
+  background-color: #3d74e4;
+  padding-right: 20px;
+}
+
+.aboutcircle.green {
+  background-color: #75fd5d;
+  padding-right: 20px;
+}
+
+.criteria_table {
+  font-family: 'calling_coderegular';
+}
+.table_about {
+  width: 100%;
+}
+
+td {
+  padding: 10px;
+  font-size: small;
+  text-align: justify;
+}
+
+@media screen and (max-width: 1024px) {
+  .about_container {
+    max-width: 800px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .about_container {
+    max-width: 600px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .about_container {
+    padding: 60px;
+  }
+
+  td {
+    font-size: medium;
+  }
+
+  .table_about {
+    display: block;
+    width: 100%;
+  }
+
+  .table tbody {
+    display: block;
+  }
+  .about_container p {
+    font-size: medium;
+  }
+
+  .table tr {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .table tr + tr {
+    margin-top: 1em;
+  }
+  .table tr .criteria_table {
+    display: block;
+    width: 100%;
+    flex: 1 auto;
+  }
+  .table tr td.criteria_table {
+    padding: 0.5rem;
+  }
+  .table tr td.criteria_table:after {
+    padding-left: 0.5em;
+    position: inherit;
+    display: inline;
+    top: auto;
+    left: auto;
+    right: auto;
+    bottom: auto;
+  }
+  .table tr td {
+    flex: 1 0;
+    position: relative;
+    padding-bottom: 17.5pt;
+  }
+  .table tr td:after {
+    display: block;
+    width: 100%;
+    position: absolute;
+    bottom: 5pt;
+    left: 0;
+  }
+}

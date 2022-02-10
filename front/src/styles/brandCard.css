@@ -1,0 +1,70 @@
+.brandcard {
+  font-family: 'Roboto Medium';
+  font-size: large;
+  z-index: 0;
+}
+.brandcard img {
+  object-fit: cover;
+  object-position: 82% 0%;
+}
+.brandcard-environnement {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  top: 27px;
+  left: 9%;
+  background-color: #FFFF00;
+  border: 2px #FFFF00 solid;
+  border-radius: 50%;
+}
+.brandcard-humain {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  top: 54px;
+  left: 4%;
+  background-color: #3D74E4;
+  border: 2px #3D74E4 solid;
+  border-radius: 50%;
+}
+.brandcard-animal {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  top: 5px;
+  left: 20%;
+  background-color: #75FD5D;
+  border: 2px #75FD5D solid;
+  border-radius: 50%;
+}
+@media screen and (max-width: 425px) {
+  .brandcard {
+    width: 160px;
+    height: 160px;
+  }
+  .brandcard h3 {
+    height: 40px;
+  }
+  .brandcard img {
+    width: 120px;
+    height: 120px;
+  }
+  .brandcard-environnement {
+    width: 20px;
+    height: 20px;
+    top: 33px;
+    left: 13%;
+  }
+  .brandcard-humain {
+    width: 20px;
+    height: 20px;
+    top: 55px;
+    left: 8%;
+  }
+  .brandcard-animal {
+    width: 20px;
+    height: 20px;
+    top: 15px;
+    left: 24%;
+  }
+}

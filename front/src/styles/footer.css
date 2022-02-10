@@ -1,0 +1,24 @@
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #b5c9fd;
+  padding: 1rem;
+  font-family: 'made_dillanregular';
+}
+
+.modal_title {
+  font-family: 'made_dillanregular';
+}
+
+.modal_text {
+  font-family: 'calling_coderegular';
+  text-align: justify;
+}
+
+@media screen and (max-width: 425px) {
+  footer {
+    font-size: 15px;
+    flex-direction: column;
+  }
+}

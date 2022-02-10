@@ -1,0 +1,14 @@
+.weartype {
+  font-family: 'Roboto Medium';
+  font-size: large;
+}
+
+@media screen and (max-width: 425px) {
+  .weartype {
+    font-size: medium;
+  }
+  .weartype img {
+    height: 120px;
+    width: 120px;
+  }
+} ;

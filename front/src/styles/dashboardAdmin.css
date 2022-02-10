@@ -1,0 +1,25 @@
+.admin-ul{
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    
+}
+.admin-div{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.admin{
+    display: flex;
+    flex-direction: row;
+}
+
+.bg-cyan-600 {
+    --tw-bg-opacity: 1;
+    background-color: rgba(8,145,178,var(--tw-bg-opacity));
+  }
+
+  .hover\:bg-cyan-700:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgba(14,116,144,var(--tw-bg-opacity));
+  }

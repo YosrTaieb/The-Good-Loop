@@ -1,0 +1,40 @@
+.animal {
+  color: #75fd5d;
+  border-color: #75fd5d;
+}
+
+.humain {
+  color: #3d74e4;
+  border-color: #3d74e4;
+}
+
+.environnement {
+  color: #ffff00;
+  border-color: #ffff00;
+}
+
+.brandcard {
+  display: flex;
+  justify-content: center;
+}
+
+.brand h1 {
+  font-family: 'made_dillanregular';
+}
+
+.pres {
+  font-family: 'kg_red_handsregular';
+}
+
+@media screen and (min-width: 425px) {
+  .homefilter_block {
+    display: block;
+    align-items: center;
+    text-align: center;
+  }
+} ;
+
+.homefilter_block {
+  display: flex;
+  flex-wrap: wrap;
+}

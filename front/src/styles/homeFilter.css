@@ -1,0 +1,17 @@
+.homefilter {
+  font-family: 'made_dillanregular';
+  font-size: x-large;
+}
+.homefilter_div_button {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 100px;
+}
+
+@media screen and (max-width: 425px) {
+  .homefilter h2 {
+    font-size: large;
+    padding-left: 1rem;
+  }
+} ;

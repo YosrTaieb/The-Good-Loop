@@ -1,0 +1,45 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "## Template for Node/Express server usage :",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon app.js",
+    "lint": "eslint --ext .js ./",
+    "prepare": "husky install"
+  },
+  "pre-commit": "lint-staged",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.2",
+    "joi": "^17.5.0",
+    "jsonwebtoken": "^8.5.1",
+    "jwt-decode": "^3.1.2",
+    "multer": "^1.4.4",
+    "mysql2": "^2.3.3",
+    "nodemon": "^2.0.15",
+    "slugify": "^1.6.4"
+  },
+  "devDependencies": {
+    "eslint": "^8.4.1",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.3",
+    "husky": "^7.0.4",
+    "lint-staged": "^12.1.2",
+    "prettier": "^2.5.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WildCodeSchool/p3-remote-fr-js-sept21-backend-jeed-.git"
+  },
+  "bugs": {
+    "url": "https://github.com/WildCodeSchool/p3-remote-fr-js-sept21-backend-jeed-/issues"
+  },
+  "homepage": "https://github.com/WildCodeSchool/p3-remote-fr-js-sept21-backend-jeed-#readme"
+}
